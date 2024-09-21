@@ -1,20 +1,20 @@
 <!-- Describe task in general -->
 
-<p>
-    Sum two passed ints  
+<p style="text-align: justify;">
+    A journalist collected data on the prices of alcohol and gasoline in several states for a report on the economic advantage of filling up with alcohol. The rule used is that alcohol is considered advantageous when its price per liter is at most 70% of the price per liter of gasoline. Given the prices collected, your program must identify in which states it is more advantageous to fill up with alcohol. If it is not advantageous to use alcohol in any state, return a list with single element <code>"*"</code>.
 </p>
 
 <p style="text-align: center;">
-    <img  title="example" src="{{MEDIA}}example.png" alt="example" style="max-height: 83px"/>
+    <img  title="example" src="{{MEDIA}}price-research.svg" alt="example" style="max-height: 200px"/>
 </p>
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Input:</strong> Two arguments. Both are ints.
+    <strong>Input:</strong> <span translate="repeat">{% if is_js %}Array{% else %}List{% endif %}</span> of tuples <span translate="no">({% if is_js %}{% else %}tuple{% endif %})</span>. Each tuple includes a string <span translate="no">(str{% if is_js %}ing{% endif %})</span> and two floats <span translate="no">({% if is_js %}number{% else %}float{% endif %})</span>.
 </p>
 
 <p>
-    <strong>Output:</strong> Int. 
+    <strong>Output:</strong> {% if is_js %}Array{% else %}List{% endif %} of strings. 
 </p>
 
 
@@ -26,17 +26,17 @@
 
 <!-- Here you can explain how it can be used in development -->
 <!-- The section is optional -->
-<p class="for_info_only">
+<!-- <p class="for_info_only">
 
     <strong>How it’s used:</strong>
     <i>(math is used everywhere)</i>
-</p>
+</p> -->
 
 <!-- Here you can explain some constraints for input-->
 <!-- The section is optional -->
-<p>
+<!-- <p>
     <strong>Preconditions:</strong>
     <ul>
     <li><i>both given ints should be between -1000 and 1000</i></li>
     </ul>
-</p>
+</p> -->
