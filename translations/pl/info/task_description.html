@@ -1,0 +1,42 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    Dziennikarz zebrał dane na temat cen alkoholu i benzyny w kilku stanach na potrzeby raportu o ekonomicznych korzyściach tankowania alkoholu. Przyjęto zasadę, że alkohol jest uważany za korzystny, gdy jego cena za litr wynosi co najwyżej 70% ceny za litr benzyny. Biorąc pod uwagę zebrane ceny, Państwa program musi określić, w których stanach tankowanie alkoholu jest bardziej korzystne. Jeśli korzystanie z alkoholu nie jest korzystne w żadnym stanie, proszę zwrócić listę z jednym elementem <code>"*"</code>.
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}price-research.svg" alt="example" style="max-height: 300px"/>
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Dane wejściowe:</strong> {% if is_js %}Tablica{% else %}Lista{% endif %} <span>({% if is_js %}Array{% else %}List{% endif %})</span> krotek <span>({% if is_js %}{% else %}tuple{% endif %})</span>. Każda krotka zawiera ciąg znaków <span>(str{% if is_js %}ing{% endif %})</span> i dwie zmiennoprzecinkowe <span>({% if is_js %}number{% else %}float{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Dane wyjściowe:</strong> {% if is_js %}Tablica{% else %}Lista{% endif %} ciągów znaków. 
+</p>
+
+
+<p>
+    <strong>Przykłady:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
