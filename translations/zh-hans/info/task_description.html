@@ -1,0 +1,42 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    一位记者收集了几个州的酒类和汽油价格数据，用于撰写一篇关于加满酒类的经济优势的报道。使用的规则是，当酒精每升的价格最多是汽油每升价格的 70% 时，酒精被认为是有利的。根据收集到的价格，您的计划必须确定在哪些州使用酒精加油更有利。如果在任何州使用酒精都不划算，则返回一个包含单元素的列表<code>"*"</code> 。
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}price-research.svg" alt="example" style="max-height: 300px"/>
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>输入：</strong> {% if is_js %}数组{% else %}列表{% endif %} <span>({% if is_js %}Array{% else %}List{% endif %})</span>的元组 <span>({% if is_js %}{% else %}tuple{% endif %})</span>.每个元组包括一个字符串 <span>(str{% if is_js %}ing{% endif %})</span>和两个浮点数 <span>({% if is_js %}number{% else %}float{% endif %})</span>.
+</p>
+
+<p>
+   <strong>输出：</strong> {% if is_js %}数组{% else %}字符串列表{% endif %} 。 
+</p>
+
+
+<p>
+    <strong>示例</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
