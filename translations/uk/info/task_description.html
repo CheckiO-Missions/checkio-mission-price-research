@@ -1,0 +1,42 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    Журналіст зібрав дані про ціни на алкоголь і бензин у кількох штатах для звіту про економічну вигоду заправлятися алкоголем. Використовується правило, що алкоголь вважається вигідним, коли його ціна за літр становить не більше 70% від ціни за літр бензину. На основі зібраних цін ваша програма повинна визначити, в яких штатах вигідніше заправлятися спиртом. Якщо у жодному штаті не вигідно використовувати алкоголь, поверніть список з одним елементом <code>"*"</code>.
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}price-research.svg" alt="example" style="max-height: 300px"/>
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Вхідні дані:</strong> {% if is_js %}Масив{% else %}Список{% endif %} <span>({% if is_js %}Array{% else %}List{% endif %})</span> кортежів <span>({% if is_js %}{% else %}tuple{% endif %})</span>. Кожен кортеж містить рядок <span>(str{% if is_js %}ing{% endif %})</span> та два числа з плаваючою комою <span>({% if is_js %}number{% else %}float{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Виведіть:</strong> {% if is_js %}Масив{% else %}Список{% endif %} рядків. 
+</p>
+
+
+<p>
+    <strong>Приклади:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
