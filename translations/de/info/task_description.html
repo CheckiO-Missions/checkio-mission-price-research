@@ -1,0 +1,42 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    Ein Journalist hat für einen Bericht über den wirtschaftlichen Vorteil des Alkoholtankens Daten über die Preise von Alkohol und Benzin in mehreren Staaten gesammelt. Die verwendete Regel besagt, dass Alkohol als vorteilhaft gilt, wenn der Preis pro Liter höchstens 70% des Preises pro Liter Benzin beträgt. Anhand der erhobenen Preise muss Ihr Programm herausfinden, in welchen Staaten es vorteilhafter ist, Alkohol zu tanken. Wenn es in keinem Staat vorteilhaft ist, Alkohol zu tanken, geben Sie eine Liste mit einem einzigen Element <code>"*"</code> zurück.
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}price-research.svg" alt="example" style="max-height: 300px"/>
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Eingabe:</strong> {% if is_js %}Array{% else %}Liste{% endif %} <span>({% if is_js %}Array{% else %}List{% endif %})</span> von Tupeln <span>({% if is_js %}{% else %}tuple{% endif %})</span>. Jedes Tupel enthält eine Zeichenkette <span>(str{% if is_js %}ing{% endif %})</span> und zwei Gleitkommazahlen <span>({% if is_js %}number{% else %}float{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Ausgabe:</strong> {% if is_js %}Array{% else %}Liste{% endif %} von Zeichenketten. 
+</p>
+
+
+<p>
+    <strong>Beispiele:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
